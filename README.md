@@ -2,7 +2,7 @@
   <img src=".github/readme/banner.svg" width="100%" alt="WR · mathLearningSite: Arithmetic practice site, EN and PL">
 </p>
 
-<p><b>English</b> · <a href="README.pl.md">Polski</a></p>
+<p><img alt="English" src="https://img.shields.io/badge/English-20C9B0?style=flat-square">&nbsp;<a href="README.pl.md"><img alt="Polski" src="https://img.shields.io/badge/Polski-526077?style=flat-square"></a></p>
 
 <p>
   <img alt="status: active" src="https://img.shields.io/badge/status-active-20C9B0?style=flat-square&labelColor=121B2B">
@@ -14,7 +14,6 @@
 **Website for practising addition, subtraction, multiplication and division.**
 Two modes: endless random tasks, or a test of ten tasks whose result is saved to a database.
 
-[Report an issue](../../issues)
 
 <p align="center"><img alt="Preview: Math learning site on desktop" src="pc_version.PNG" width="85%"></p>
 
@@ -55,9 +54,6 @@ This README is available in English (default) and [Polish](README.pl.md). The si
 
 ## License
 
-No licence file: all rights reserved. Ask before reusing the code.
-Author: WR
+No licence file: all rights reserved. Ask before reusing the code. Author: WR.
 
----
-
-<p align="center"><sub><b>WR</b> · <a href="https://github.com/vviktooor">vviktooor</a></sub></p>
+Found a bug or have an idea? [Open an issue](../../issues).

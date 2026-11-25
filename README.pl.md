@@ -2,7 +2,7 @@
   <img src=".github/readme/banner.pl.svg" width="100%" alt="WR · mathLearningSite: Strona do nauki działań, PL i EN">
 </p>
 
-<p><a href="README.md">English</a> · <b>Polski</b></p>
+<p><a href="README.md"><img alt="English" src="https://img.shields.io/badge/English-526077?style=flat-square"></a>&nbsp;<img alt="Polski" src="https://img.shields.io/badge/Polski-20C9B0?style=flat-square"></p>
 
 <p>
   <img alt="status: aktywny" src="https://img.shields.io/badge/status-aktywny-20C9B0?style=flat-square&labelColor=121B2B">
@@ -14,7 +14,6 @@
 **Strona do ćwiczenia dodawania, odejmowania, mnożenia i dzielenia.**
 Dwa tryby: nieskończone losowe zadania albo test z dziesięciu zadań, którego wynik zapisuje się w bazie.
 
-[Zgłoś problem](../../issues)
 
 <p align="center"><img alt="Podgląd: Strona do nauki matematyki na komputerze" src="pc_version.PNG" width="85%"></p>
 
@@ -55,9 +54,6 @@ Ten README jest po polsku i po [angielsku](README.md) (wersja domyślna). Strona
 
 ## Licencja
 
-Brak pliku licencji: wszelkie prawa zastrzeżone. Zapytaj przed ponownym użyciem kodu.
-Autor: WR
+Brak pliku licencji: wszelkie prawa zastrzeżone. Zapytaj przed ponownym użyciem kodu. Autor: WR.
 
----
-
-<p align="center"><sub><b>WR</b> · <a href="https://github.com/vviktooor">vviktooor</a></sub></p>
+Znalazłeś błąd albo masz pomysł? [Zgłoś go w Issues](../../issues).
