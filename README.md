@@ -1,32 +1,63 @@
+<p>
+  <img src=".github/readme/banner.svg" width="100%" alt="WR · mathLearningSite: Arithmetic practice site, EN and PL">
+</p>
 
-# Math learning site🚀
+<p><b>English</b> · <a href="README.pl.md">Polski</a></p>
 
-This page is designed to teach addition, subtraction, multiplication and division. 
+<p>
+  <img alt="status: active" src="https://img.shields.io/badge/status-active-20C9B0?style=flat-square&labelColor=121B2B">
+  <img alt="stack: PHP · MySQL · HTML · CSS" src="https://img.shields.io/badge/stack-PHP%20%C2%B7%20MySQL%20%C2%B7%20HTML%20%C2%B7%20CSS-3267E9?style=flat-square&labelColor=121B2B">
+  <img alt="type: learning" src="https://img.shields.io/badge/type-learning-3267E9?style=flat-square&labelColor=121B2B">
+  <img alt="license: public" src="https://img.shields.io/badge/license-public-526077?style=flat-square&labelColor=121B2B">
+</p>
 
+**Website for practising addition, subtraction, multiplication and division.**
+Two modes: endless random tasks, or a test of ten tasks whose result is saved to a database.
 
-## Installation
+[Report an issue](../../issues)
 
-To run this project you need XAMPP or similar web server software. Now I will show you how to run a project locally using XAMPP. If  you don't have XAMPP you download it from official website [here](https://www.apachefriends.org/download.html).
+<p align="center"><img alt="Preview: Math learning site on desktop" src="pc_version.PNG" width="85%"></p>
 
-- Open the location where you installed XAMPP
-- Download all project files
-- Place the files in htdocs folder
-- Run XAMPP and start Apache and MySQL module
-- Click on admin on both module
-- Look up for import in phpmyadmin
-- Select kalkulator.sql and then execute
+## What I practised
 
-If everything is setup properly you should end up with fully working website.
-    
-## Usage/Examples
+- **Four operations** with random and test modes.
+- **English and Polish** versions (`en/`, `pl/`).
+- **Responsive** layout for desktop and mobile.
 
- The site is designed to teach mathematics, there is a random mode, i.e. infinite tasks, and a test mode where the user has ten randomly generated tasks. The result from the test can then be sent to a simple database.
-## Screenshots
+## Quick start
 
-![App Screenshot](pc_version.PNG)
+Requirements: XAMPP (Apache + MySQL) or a similar PHP server.
 
+```bash
+git clone https://github.com/vviktooor/mathLearningSite.git
+# copy the folder to xampp/htdocs, start Apache and MySQL
+# import kalkulator.sql in phpMyAdmin, then open http://localhost/mathLearningSite
+```
 
-## Features
-- English & Polish support
-- Website is fully resizable
+## Languages
 
+This README is available in English (default) and [Polish](README.pl.md). The site has English (`index_en.html`) and Polish (`index.html`) versions.
+
+## Repository layout
+
+| Where | What |
+|---|---|
+| `index.html, index_en.html` | Start pages (PL, EN) |
+| `pl/, en/` | Exercises per language |
+| `kalkulator.sql` | Database for test results |
+| `css/, img/` | Styles and images |
+
+## Tests and quality
+
+| Check | Result | Date |
+|---|---|---|
+| Tests | NOT VERIFIED (learning repository) | 2026-11-25 |
+
+## License
+
+No licence file: all rights reserved. Ask before reusing the code.
+Author: WR
+
+---
+
+<p align="center"><sub><b>WR</b> · <a href="https://github.com/vviktooor">vviktooor</a></sub></p>
