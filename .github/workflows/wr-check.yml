@@ -1,0 +1,30 @@
+# WR gate: copy to .github/workflows/wr-check.yml, with repo_check.py and
+# commit_check.py from the skill's scripts/ in .github/wr/. Author: WR
+name: WR check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  wr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Repository standard (README EN/PL, Markdown docs, secrets)
+        run: python3 .github/wr/repo_check.py .
+      - name: Conventional Commits (PR title and commits)
+        if: github.event_name == 'pull_request'
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          python3 .github/wr/commit_check.py "$TITLE"
+          git log --no-merges --format=%s "$BASE..$HEAD" | python3 .github/wr/commit_check.py -
